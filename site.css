@@ -148,7 +148,7 @@ footer p {
 /* Apply transition to the body when the page loads */
 body {
     opacity: 0; /* Initially invisible */
-    transition: opacity 1s ease-in; /* Transition effect for opacity */
+    transition: opacity 0.5s ease-in-out; /* Transition effect for opacity */
 }
 
 /* When the page is fully loaded, set the opacity to 1 */
